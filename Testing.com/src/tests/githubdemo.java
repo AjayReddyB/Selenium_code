@@ -15,7 +15,7 @@ public class githubdemo {
 					driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 					//opening web-site using URL
 					driver.get("https://amazon.in");
-		driver.quit();
+		driver.close();
 
 	}
 
