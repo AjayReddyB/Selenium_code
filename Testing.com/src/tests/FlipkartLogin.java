@@ -11,7 +11,7 @@ public class FlipkartLogin {
 
 	public static void main(String[] args) {
 			// creating driver object/ opening browser
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\ajayr\\workspace\\Testing.com\\Recources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\ajayr\\workspace\\Git Repo\\Selenium_code\\Testing.com\\Recources\\chromedriver.exe");
 			ChromeDriver driver= new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -31,10 +31,12 @@ public class FlipkartLogin {
 			driver.switchTo().window(childID);
 			// adding item to cart
 			driver.findElementByXPath("//*[text()='ADD TO CART']").click();
+			
 			// switching back to main window for confirming product in cart.
+			
 			driver.switchTo().window(parentID);
 			driver.findElementByXPath("//*[text()='Cart']").click();
-			driver.close();
+			driver.quit();
 	}
 
 }
