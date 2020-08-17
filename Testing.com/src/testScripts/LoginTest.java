@@ -28,7 +28,7 @@ public class LoginTest{
 @BeforeClass
 public void configBC(){
 		System.out.println("Launch Browser");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\ajayr\\workspace\\Testing.com\\Recources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\ajayr\\workspace\\Git Repo\\Selenium_code\\Testing.com\\Recources\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/login.html");
 		driver.manage().window().maximize();

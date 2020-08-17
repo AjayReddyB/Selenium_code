@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20939" started-at="2020-08-16T03:42:07Z" finished-at="2020-08-16T03:42:28Z">
+  <suite name="Suite" duration-ms="29956" started-at="2020-08-16T12:14:47Z" finished-at="2020-08-16T12:15:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20939" started-at="2020-08-16T03:42:07Z" finished-at="2020-08-16T03:42:28Z">
+    <test name="LoginTest" duration-ms="29956" started-at="2020-08-16T12:14:47Z" finished-at="2020-08-16T12:15:17Z">
       <class name="testScripts.LoginTest">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:testScripts.LoginTest@3bfdc050]" name="configBC" is-config="true" duration-ms="17974" started-at="2020-08-16T03:42:07Z" finished-at="2020-08-16T03:42:25Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:testScripts.LoginTest@1bce4f0a]" name="configBC" is-config="true" duration-ms="7399" started-at="2020-08-16T12:14:47Z" finished-at="2020-08-16T12:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:testScripts.LoginTest@3bfdc050]" name="configBM" is-config="true" duration-ms="609" started-at="2020-08-16T03:42:25Z" finished-at="2020-08-16T03:42:26Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:testScripts.LoginTest@1bce4f0a]" name="configBM" is-config="true" duration-ms="16596" started-at="2020-08-16T12:14:55Z" finished-at="2020-08-16T12:15:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="logiinTest()[pri:0, instance:testScripts.LoginTest@3bfdc050]" name="logiinTest" duration-ms="2103" started-at="2020-08-16T03:42:26Z" finished-at="2020-08-16T03:42:28Z">
+        <test-method status="PASS" signature="logiinTest()[pri:0, instance:testScripts.LoginTest@1bce4f0a]" name="logiinTest" duration-ms="5809" started-at="2020-08-16T12:15:11Z" finished-at="2020-08-16T12:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logiinTest -->
-        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:testScripts.LoginTest@3bfdc050]" name="configAM" is-config="true" duration-ms="16" started-at="2020-08-16T03:42:28Z" finished-at="2020-08-16T03:42:28Z">
+        <test-method status="PASS" signature="configAM(org.testng.ITestResult)[pri:0, instance:testScripts.LoginTest@1bce4f0a]" name="configAM" is-config="true" duration-ms="4" started-at="2020-08-16T12:15:17Z" finished-at="2020-08-16T12:15:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logiinTest status=SUCCESS method=LoginTest.logiinTest()[pri:0, instance:testScripts.LoginTest@3bfdc050] output={null}]]]>
+                <![CDATA[[TestResult name=logiinTest status=SUCCESS method=LoginTest.logiinTest()[pri:0, instance:testScripts.LoginTest@1bce4f0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:testScripts.LoginTest@3bfdc050]" name="configAC" is-config="true" duration-ms="193" started-at="2020-08-16T03:42:28Z" finished-at="2020-08-16T03:42:28Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:testScripts.LoginTest@1bce4f0a]" name="configAC" is-config="true" duration-ms="140" started-at="2020-08-16T12:15:17Z" finished-at="2020-08-16T12:15:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- testScripts.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
 </testng-results>
