@@ -7,9 +7,9 @@ public class Flipkthome {
 	@FindBy(xpath="//*[text()='✕']")WebElement clsBtn;
 	@FindBy(xpath="//*[@Title='Search for products, brands and more']")WebElement searchbar;
 	@FindBy(xpath="//*[@type='submit']")WebElement searchBtn;
-	public void search(){
+	public void search(String searchName){
 		clsBtn.click();
-		searchbar.sendKeys("Apple Iphone");
+		searchbar.sendKeys(searchName);
 		searchBtn.click();
 	}
 }
