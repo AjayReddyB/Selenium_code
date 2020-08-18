@@ -47,9 +47,10 @@ public void configBC(){
 		if(ITestResult.FAILURE==result.getStatus()) {
 		ScreenshotOnFailure sc=new ScreenshotOnFailure();
 		sc.captureSC(driver, result.getName());
-		}	System.out.println("LOGOUT");
-			System.out.println("after method completd");
 		
+		System.out.println("LOGOUT");
+			System.out.println("after method completd");
+		}
 	}
 	@AfterClass
 	public void configAC(){
